@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monofett&family=Pacifico&family=Ramaraja&family=Shizuru&display=swap"
+        rel="stylesheet">
+    <script src="index.js"> </script>
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+
+
+            <input type="text" id="inputArea"></input>
+            <div class="buttons">
+                <button class="btn" onclick="clearScreen()" value="C">C</button>
+                <button class="btn" onclick="getVal('/')" value="/">/</button>
+                <button class="btn" onclick="getVal('*')" value="*">*</button>
+                <button class="btn" onclick="backSpace('&larr;')" value="&larr;">&larr;</button>
+                <button class="btn" onclick="getVal('7')" value="7">7</button>
+                <button class="btn" onclick="getVal('8')" value="8">8</button>
+                <button class="btn" onclick="getVal('9')" value="9">9</button>
+                <button class="btn" onclick="getVal('-')" value="-">-</button>
+                <button class="btn" onclick="getVal('4')" value="4">4</button>
+                <button class="btn" onclick="getVal('5')" value="5">5</button>
+                <button class="btn" onclick="getVal('6')" value="6">6</button>
+                <button class="btn" onclick="getVal('+')" value="+">+</button>
+                <button class="btn" onclick="getVal('1')" value="1">1</button>
+                <button class="btn" onclick="getVal('2')" value="2">2</button>
+                <button class="btn" onclick="getVal('3')" value="3">3</button>
+                <button class="btn" onclick="getVal('.')" value=".">.</button>
+                <button class="btn" onclick="getVal('(')" value="(">(</button>
+                <button class="btn" onclick="getVal('0')" value="0">0</button>
+                <button class="btn" onclick="getVal(')')" value=")">)</button>
+                <button id="equal" class="btn" onclick="result()" value="=">=</button>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
